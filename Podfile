@@ -7,6 +7,10 @@ target 'GoogleLoginTest' do
 
   # Pods for GoogleLoginTest
   pod 'Firebase/Core'
+  pod 'GoogleSignIn'
+  pod 'Firebase/Auth'
+
+
   target 'GoogleLoginTestTests' do
     inherit! :search_paths
     # Pods for testing
