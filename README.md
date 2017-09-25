@@ -7,12 +7,9 @@
 
 - Firebaseの管理画面を開き「ログイン方法」タブからGoogleログインを有効にする
 
-[f:id:jesus9387:20170908122455p:plain]
+http://jesus9387.hatenablog.com/entry/2017/09/08/124052
 
 ## インストール
-
-<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?t=a8-affi-280401-22&o=9&p=12&l=ur1&category=books&f=ifr" width=300 height=250 scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe> <img border="0" width="1" height="1" src="//www12.a8.net/0.gif?a8mat=2TN9DK+4IJCXE+249K+BWGDT" alt="">
-
 
 - Podfileを開き下記を追加
 
@@ -29,11 +26,11 @@ pod 'GoogleSignIn'
 
 - GoogleService-Info.plist のREVERSED_CLIENT_IDの値をコピーする
 
-[f:id:jesus9387:20170908122611p:plain]
+http://jesus9387.hatenablog.com/entry/2017/09/08/124052
 
 - URL Typeにペースト
 
-[f:id:jesus9387:20170908122727p:plain]
+http://jesus9387.hatenablog.com/entry/2017/09/08/124052
 
 ## AppDelegateを編集
 
@@ -92,7 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 - StoryBoardにViewを貼り付けクラスに``` GIDSignInButton ```を設定
 
-[f:id:jesus9387:20170908122811p:plain]
+http://jesus9387.hatenablog.com/entry/2017/09/08/124052
 
 
 ## ViewCotroller編集
@@ -150,7 +147,7 @@ class ViewController: UIViewController,GIDSignInUIDelegate, GIDSignInDelegate {
 ## 完成
 
 - ログインボタンをタップするとGoogleのログイン画面が表示されます。
-[f:id:jesus9387:20170908123059p:plain]
+http://jesus9387.hatenablog.com/entry/2017/09/08/124052
 
 
 ## よければ
@@ -161,6 +158,5 @@ class ViewController: UIViewController,GIDSignInUIDelegate, GIDSignInDelegate {
 
 - Twitterもフォローお願い致します。( https://twitter.com/yshogo87 )
 
-<iframe src="//rcm-fe.amazon-adsystem.com/e/cm?t=a8-affi-280401-22&o=9&p=48&l=ur1&category=books&f=ifr" width=728 height=90 scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe> <img border="0" width="1" height="1" src="//www12.a8.net/0.gif?a8mat=2TN9DK+4IJCXE+249K+BWGDT" alt="">
 
 
