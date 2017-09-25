@@ -1,3 +1,7 @@
+* 詳細は下記に書いた記事に
+http://jesus9387.hatenablog.com/entry/2017/09/08/124052
+
+
 ## Firebaseを使ったGoogleログインサンプル
 
 ハマったのでメモとして残しておきます。
